@@ -1,0 +1,8 @@
+./a.out 199
+./a.out 113
+./a.out 197
+./a.out 337
+./a.out 1193
+./a.out 222
+./a.out 15
+./a.out 777
