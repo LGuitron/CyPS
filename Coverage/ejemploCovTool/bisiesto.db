@@ -1,0 +1,13 @@
+file: /home/lguitron24/Tec/CalidadYpruebasSoftware/bisiesto.c 5 5 100
+il:  4 5 6 7 8 
+el:  4 5 6 7 8 
+file: /home/lguitron24/Tec/Coverage/ejemploCovTool/bisiesto.c 5 4 80
+il:  4 5 6 7 8 
+el:  4 5 6 8 
+totals: 10 9 90
+dir: /home 10 9 90
+dir: /home/lguitron24 10 9 90
+dir: /home/lguitron24/Tec 10 9 90
+dir: /home/lguitron24/Tec/CalidadYpruebasSoftware 5 5 100
+dir: /home/lguitron24/Tec/Coverage 5 4 80
+dir: /home/lguitron24/Tec/Coverage/ejemploCovTool 5 4 80
