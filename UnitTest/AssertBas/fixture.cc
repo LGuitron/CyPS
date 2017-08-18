@@ -4,6 +4,7 @@
 class TestStack : public::testing::Test
 {
 public:
+    //En setup y teardown se deben utilizar atributos estaticos
     void SetUp()
     {
         myst.push(10);
