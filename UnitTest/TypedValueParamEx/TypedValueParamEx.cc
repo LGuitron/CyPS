@@ -1,24 +1,28 @@
 #include "gtest/gtest.h"
 #include "TypedValueParamEx.h"
 
-using ::testing::Range;
 using ::testing::Values;
 using ::testing::ValuesIn;
-using ::testing::Bool;
-using ::testing::Combine;
 
-template <class T>
-class Fixture : public ::testing::TestWithParam<T>
-{
-public:
-    T value;
-};
+class Fixture : public::testing::TestWithParam<StringAndPointer>{};
 
-typedef ::testing::Types<int,float,char> implementations;
-TYPED_TEST_CASE(Fixture, implementations);
+//INTEGERS//
+int* ints_p= new int(3);
+StringAndPointer ints(ints_p,"int");
 
-//Nombre del test debe ser igual al nombre de las implementaciones
-TYPED_TEST(Fixture,implementations)
+//CHARS//
+char* chars_p = new char('t');
+StringAndPointer chars(chars_p,"char");
+
+//FLOATS//
+float* floats_p = new float(4.5f);
+StringAndPointer floats(floats_p,"float");
+
+TEST_P(Fixture, Tests)
 {
     printValue(GetParam());
 }
+
+INSTANTIATE_TEST_CASE_P(Ints, Fixture, Values(ints));
+INSTANTIATE_TEST_CASE_P(Chars, Fixture, Values(chars));
+INSTANTIATE_TEST_CASE_P(Floats, Fixture, Values(floats));
