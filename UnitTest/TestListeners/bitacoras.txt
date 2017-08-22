@@ -1,0 +1,20 @@
+_____________________________________________
+Test Case: TcnUno
+Test Name: tname
+Falló la prueba
+      Expected: 1
+To be equal to: -1
+Linea del error: 60
+Tiempo de ejecucion 0
+_____________________________________________
+Test Case: TcnUno
+Test Name: otroNombre
+Tiempo de ejecucion 0
+_____________________________________________
+Test Case: tcnDos
+Test Name: nombre
+Tiempo de ejecucion 0
+_____________________________________________
+El numero de tests ejecutado fue: 3
+Tests correctos: 2
+Tests incorrectos: 1
