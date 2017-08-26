@@ -6,26 +6,26 @@ MemoryCheck::MemoryCheck(){}
 
 void* MemoryCheck::operator new(std::size_t n)
 {
-    std::cout << "NEW " << ++countA << " | size: " << n << std::endl;
+    ++countA;
     void* temp = ::operator new(n);
     return temp;
 }
 
 void* MemoryCheck::operator new[](std::size_t n)
 {
-    std::cout << "NEW " << ++countA << " | size: " << n << std::endl;
+    ++countA;
     void* temp = ::operator new(n);
     return temp;
 }
 
 void MemoryCheck::operator delete(void * p) 
 {
-    std::cout << "DEL " << --countA << std::endl;
+    --countA;
     ::operator delete(p);
 }
 
 void MemoryCheck::operator delete[](void * p) 
 {
-    std::cout << "DEL " << --countA << std::endl;
+    --countA;
     ::operator delete(p);
 }
