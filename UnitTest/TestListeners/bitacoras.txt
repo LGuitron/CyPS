@@ -4,7 +4,7 @@ Test Name: tname
 Falló la prueba
       Expected: 1
 To be equal to: -1
-Linea del error: 60
+Linea del error: 76
 Tiempo de ejecucion 0
 _____________________________________________
 Test Case: TcnUno
@@ -15,6 +15,15 @@ Test Case: tcnDos
 Test Name: nombre
 Tiempo de ejecucion 0
 _____________________________________________
-El numero de tests ejecutado fue: 3
+Test Case: TcnTimeout
+Test Name: cicloInfinito
+Falló la prueba
+Value of: futureResult.wait_for(std::chrono::milliseconds(1000)) != std::future_status::timeout
+  Actual: false
+Expected: true
+Linea del error: 102
+Tiempo de ejecucion 0
+_____________________________________________
+El numero de tests ejecutado fue: 4
 Tests correctos: 2
-Tests incorrectos: 1
+Tests incorrectos: 2

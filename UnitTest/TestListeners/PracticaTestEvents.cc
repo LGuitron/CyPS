@@ -4,6 +4,22 @@
 #include <fstream>
 #include <future>
 
+#define TEST_TIMEOUT_BEGIN   std::promise<bool> promisedFinished; \
+                              auto futureResult = promisedFinished.get_future(); \
+                              std::thread([](std::promise<bool>& finished) {
+
+ 
+
+#define TEST_TIMEOUT_FAIL_END(X)  finished.set_value(true); \
+                                   }, std::ref(promisedFinished)).detach(); \
+                                   EXPECT_TRUE(futureResult.wait_for(std::chrono::milliseconds(X)) != std::future_status::timeout);
+
+ 
+
+#define TEST_TIMEOUT_SUCCESS_END(X)  finished.set_value(true); \
+                                      }, std::ref(promisedFinished)).detach(); \
+                                      EXPECT_FALSE(futureResult.wait_for(std::chrono::milliseconds(X)) != std::future_status::timeout);
+
 using ::testing::EmptyTestEventListener;
 using ::testing::InitGoogleTest;
 using ::testing::UnitTest;
@@ -68,6 +84,22 @@ TEST(TcnUno, otroNombre)
 TEST(tcnDos, nombre)
 {
     ASSERT_EQ(0,0);
+}
+
+
+int infiniteLoop()
+{
+    while(true){}
+    return 1;
+}
+
+TEST(TcnTimeout, cicloInfinito)
+{
+  TEST_TIMEOUT_BEGIN
+  EXPECT_EQ(1, infiniteLoop());
+  
+  //Timeout de 1 segundo para la prueba//
+  TEST_TIMEOUT_FAIL_END(1000)
 }
 
 int main(int argc, char** argv)
