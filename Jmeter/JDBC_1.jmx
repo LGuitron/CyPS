@@ -78,10 +78,94 @@
           <stringProp name="username">root</stringProp>
         </JDBCDataSource>
         <hashTree/>
-        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request" enabled="true">
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="max_sell_price" enabled="true">
           <stringProp name="dataSource">querys</stringProp>
           <stringProp name="queryType">Select Statement</stringProp>
-          <stringProp name="query">select * from countries;</stringProp>
+          <stringProp name="query">SELECT pro_name, pro_sel_price FROM products ORDER BY pro_sel_price desc LIMIT 1;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="min_sell_price" enabled="true">
+          <stringProp name="dataSource">querys</stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="query">SELECT pro_name, pro_sel_price FROM products ORDER BY pro_sel_price asc LIMIT 1;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="most_sold_product" enabled="true">
+          <stringProp name="dataSource">querys</stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="query">SELECT invoices_detail.pro_code, products.pro_name , COUNT(*) as cant 
+FROM invoices_detail 
+INNER JOIN products ON invoices_detail.pro_code = products.pro_code 
+GROUP BY  invoices_detail.pro_code ORDER BY cant desc LIMIT 1;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="ventas_INT" enabled="true">
+          <stringProp name="dataSource">querys</stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="query">SELECT COUNT(*), SUM(inv_price) FROM invoices where buy_code =&quot;INT&quot;;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="TEL_AMEX" enabled="true">
+          <stringProp name="dataSource">querys</stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="query">SELECT SUM(cant_prod) as productos
+FROM invoices_detail
+
+INNER JOIN 
+(SELECT invoice_number
+FROM invoices 
+WHERE buy_code = &quot;TEL&quot; AND pay_code = &quot;AMEX&quot;)b
+ON invoices_detail.invoice_number = b.invoice_number;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="best_customer" enabled="true">
+          <stringProp name="dataSource">querys</stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="query">select customers.cus_name , SUM(prod_X_venta) as prodsCliente
+from invoices
+inner join
+	(select count(*) as prod_X_venta, invoice_number
+	from invoices_detail 
+	group by invoice_number 
+	order by prod_X_venta asc)b
+on invoices.invoice_number = b.invoice_number
+
+inner join customers
+on customers.cus_id = invoices.cus_id
+
+group by invoices.cus_id
+order by prodsCliente desc
+limit 1;</stringProp>
           <stringProp name="queryArguments"></stringProp>
           <stringProp name="queryArgumentsTypes"></stringProp>
           <stringProp name="variableNames"></stringProp>
