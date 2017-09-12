@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="3.2" jmeter="3.2 r1790748">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="MongoDB Test Plan" enabled="true">
-      <stringProp name="TestPlan.comments">Shows how to setup a MongoDB Test</stringProp>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
@@ -11,64 +11,211 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <MongoSourceElement guiclass="TestBeanGUI" testclass="MongoSourceElement" testname="MongoDB Source Config" enabled="true">
-        <stringProp name="connection">127.0.0.1</stringProp>
-        <stringProp name="source">db</stringProp>
-        <boolProp name="autoConnectRetry">false</boolProp>
-        <intProp name="connectionsPerHost">50</intProp>
-        <intProp name="connectTimeout">0</intProp>
-        <longProp name="maxAutoConnectRetryTime">0</longProp>
-        <intProp name="maxWaitTime">120000</intProp>
-        <intProp name="socketTimeout">0</intProp>
-        <boolProp name="socketKeepAlive">false</boolProp>
-        <intProp name="threadsAllowedToBlockForConnectionMultiplier">5</intProp>
-        <boolProp name="safe">false</boolProp>
-        <boolProp name="fsync">false</boolProp>
-        <boolProp name="waitForJournaling">false</boolProp>
-        <intProp name="writeOperationNumberOfServers">0</intProp>
-        <intProp name="writeOperationTimeout">0</intProp>
-        <boolProp name="continueOnInsertError">false</boolProp>
-        <stringProp name="TestPlan.comments">Configures connection to MongoDB</stringProp>
-      </MongoSourceElement>
-      <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <intProp name="LoopController.loops">-1</intProp>
+          <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">30</stringProp>
-        <longProp name="ThreadGroup.start_time">1367357168000</longProp>
-        <longProp name="ThreadGroup.end_time">1367357168000</longProp>
+        <stringProp name="ThreadGroup.num_threads">30</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">3</stringProp>
+        <longProp name="ThreadGroup.start_time">1504614332000</longProp>
+        <longProp name="ThreadGroup.end_time">1504614332000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration">300</stringProp>
-        <stringProp name="ThreadGroup.delay">10</stringProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="JSR223 Sampler" enabled="true">
-          <stringProp name="scriptLanguage">groovy</stringProp>
-          <stringProp name="parameters"></stringProp>
-          <stringProp name="filename"></stringProp>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="NumCiudades" enabled="true">
           <stringProp name="cacheKey"></stringProp>
-          <stringProp name="script">import com.mongodb.*
-import org.apache.jmeter.protocol.mongodb.config.MongoDBHolder;
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import com.mongodb.* 
+import java.util.regex.Pattern;
 
-
-DB db = MongoDBHolder.getDBFromSource(&quot;db&quot;, &quot;prueba&quot;);
+MongoClient cli = new MongoClient(&quot;localhost&quot;, 27017);
+DB db = cli.getDB(&quot;prueba&quot;);
 DBCollection collection = db.getCollection(&quot;zips&quot;);
 
-BasicDBObject query = new BasicDBObject(&quot;city&quot;, &quot;NEW YORK&quot;);
-DBCursor cursor = collection.find(query);
-StringBuilder resultBuilder = new StringBuilder();
+StringBuilder result = new StringBuilder();
 
-while (cursor.hasNext()) 
+//Ciudades con nombres diferentes//
+Object r = collection.distinct(&quot;city&quot;).size();
+result.append(r.toString());
+result.append(&quot;\n&quot;);
+
+SampleResult.setResponseData(result.toString().getBytes());
+
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="NumCodigosPostales" enabled="true">
+          <stringProp name="cacheKey"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import com.mongodb.* 
+import java.util.regex.Pattern;
+
+MongoClient cli = new MongoClient(&quot;localhost&quot;, 27017);
+DB db = cli.getDB(&quot;prueba&quot;);
+DBCollection collection = db.getCollection(&quot;zips&quot;);
+
+StringBuilder result = new StringBuilder();
+
+//Ciudades con nombres diferentes//
+Object r = collection.distinct(&quot;_id&quot;).size();
+result.append(r.toString());
+result.append(&quot;\n&quot;);
+
+SampleResult.setResponseData(result.toString().getBytes());
+
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="CiudadesConN" enabled="true">
+          <stringProp name="cacheKey"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import com.mongodb.* 
+import java.util.regex.Pattern;
+
+MongoClient cli = new MongoClient(&quot;localhost&quot;, 27017);
+DB db = cli.getDB(&quot;prueba&quot;);
+DBCollection collection = db.getCollection(&quot;zips&quot;);
+
+StringBuilder result = new StringBuilder();
+
+//Ciudades que empiezan con N//
+DBCursor cursor0 = collection.find(new BasicDBObject(&quot;city&quot;,Pattern.compile(&quot;^N.&quot;)));
+
+while(cursor0.hasNext())
 {
-	DBObject result = cursor.next();
-	resultBuilder.append(result.toString());
+	result.append(cursor0.next().get(&quot;city&quot;));
+	result.append(&quot;\n&quot;);
+}
+result.append(&quot;\n&quot;);
+
+SampleResult.setResponseData(result.toString().getBytes());
+
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="MayorCP" enabled="true">
+          <stringProp name="cacheKey"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import com.mongodb.* 
+import java.util.regex.Pattern;
+
+MongoClient cli = new MongoClient(&quot;localhost&quot;, 27017);
+DB db = cli.getDB(&quot;prueba&quot;);
+DBCollection collection = db.getCollection(&quot;zips&quot;);
+
+StringBuilder result = new StringBuilder();
+
+//Mayor codigo postal//
+Cursor cursor = collection.find();  
+cursor.sort(new BasicDBObject(&quot;_id&quot;, -1));
+result.append(cursor.next());
+result.append(&quot;\n&quot;);
+
+SampleResult.setResponseData(result.toString().getBytes());
+
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="MenorCP" enabled="true">
+          <stringProp name="cacheKey"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import com.mongodb.* 
+import java.util.regex.Pattern;
+
+MongoClient cli = new MongoClient(&quot;localhost&quot;, 27017);
+DB db = cli.getDB(&quot;prueba&quot;);
+DBCollection collection = db.getCollection(&quot;zips&quot;);
+
+StringBuilder result = new StringBuilder();
+
+//Menor codigo postal//   
+Cursor cursor2 = collection.find();  
+cursor2.sort(new BasicDBObject(&quot;_id&quot;, 1));
+result.append(cursor2.next());
+result.append(&quot;\n&quot;);
+
+
+SampleResult.setResponseData(result.toString().getBytes());
+
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="CiudadMasLetras" enabled="true">
+          <stringProp name="cacheKey"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import com.mongodb.* 
+import java.util.regex.Pattern;
+
+MongoClient cli = new MongoClient(&quot;localhost&quot;, 27017);
+DB db = cli.getDB(&quot;prueba&quot;);
+DBCollection collection = db.getCollection(&quot;zips&quot;);
+
+StringBuilder result = new StringBuilder();
+
+DBCursor cursor = collection.find();
+
+String maxCity = cursor.next().get(&quot;city&quot;);
+int maxLength = maxCity.length();
+
+while(cursor.hasNext())
+{
+	String currentCity = cursor.next().get(&quot;city&quot;);
+	if(currentCity.length()&gt;maxLength)
+	{
+		maxLength = currentCity.length();
+		maxCity = currentCity;
+	}	
+}
+result.append(maxCity);
+
+
+SampleResult.setResponseData(result.toString().getBytes());
+
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="CiudadDosPalabras" enabled="true">
+          <stringProp name="cacheKey"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import com.mongodb.* 
+import java.util.regex.Pattern;
+
+MongoClient cli = new MongoClient(&quot;localhost&quot;, 27017);
+DB db = cli.getDB(&quot;prueba&quot;);
+DBCollection collection = db.getCollection(&quot;zips&quot;);
+
+StringBuilder result = new StringBuilder();
+
+//Ciudades con 2 palabras//
+DBCursor cursor = collection.find(new BasicDBObject(&quot;city&quot;, Pattern.compile(&quot; &quot;)));
+
+while(cursor.hasNext())
+{
+	result.append(cursor.next().get(&quot;city&quot;));
+	result.append(&quot;\n&quot;);
 }
 
-SampleResult.setResponseData(resultBuilder.toString());</stringProp>
+SampleResult.setResponseData(result.toString().getBytes());
+
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
         </JSR223Sampler>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
