@@ -2942,3 +2942,1028 @@ JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCK
 1507041163214	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1507041163356	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
 1507041164360	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507041287819	geckodriver	INFO	geckodriver 0.18.0
+1507041287821	geckodriver	INFO	Listening on 127.0.0.1:33533
+1507041288864	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:11282): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041289171	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507041289428	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:11357): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041290457	Marionette	INFO	Listening on port 34763
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507041290565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507041290607	Marionette	DEBUG	loaded listener.js
+1507041290630	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507041290746	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507041290746	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507041290875	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507041292203	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507041634584	geckodriver	INFO	geckodriver 0.18.0
+1507041634586	geckodriver	INFO	Listening on 127.0.0.1:50257
+1507041635623	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:11491): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041635932	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507041636191	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:11566): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041637228	Marionette	INFO	Listening on port 34161
+1507041637247	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507041637290	Marionette	DEBUG	loaded listener.js
+1507041637377	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507041638296	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507041638296	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507041638616	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507041638753	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507041746139	geckodriver	INFO	geckodriver 0.18.0
+1507041746142	geckodriver	INFO	Listening on 127.0.0.1:58699
+1507041747224	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:11629): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041747538	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507041747796	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:11704): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041748916	Marionette	INFO	Listening on port 34197
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507041748939	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507041748980	Marionette	DEBUG	loaded listener.js
+1507041749003	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507041750219	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507041750220	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507041751652	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507041752336	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507041878943	geckodriver	INFO	geckodriver 0.18.0
+1507041878946	geckodriver	INFO	Listening on 127.0.0.1:35951
+1507041880030	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:11773): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041880366	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507041880629	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:11849): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041881654	Marionette	INFO	Listening on port 46533
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507041881759	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507041881800	Marionette	DEBUG	loaded listener.js
+1507041881826	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507041882756	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507041882757	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507041883052	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507041883173	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507041951124	geckodriver	INFO	geckodriver 0.18.0
+1507041951126	geckodriver	INFO	Listening on 127.0.0.1:48139
+1507041952171	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:11920): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041952487	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507041952758	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:11992): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041953874	Marionette	INFO	Listening on port 43543
+1507041953904	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507041953944	Marionette	DEBUG	loaded listener.js
+1507041953969	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507041954853	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507041954854	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507041955184	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507041955339	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507041980157	geckodriver	INFO	geckodriver 0.18.0
+1507041980159	geckodriver	INFO	Listening on 127.0.0.1:55893
+1507041981231	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:12050): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041981544	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507041981803	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:12126): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507041982962	Marionette	INFO	Listening on port 39291
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507041983045	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507041983084	Marionette	DEBUG	loaded listener.js
+1507041983110	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507041984049	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507041984049	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507041984330	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507041984455	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042058979	geckodriver	INFO	geckodriver 0.18.0
+1507042058982	geckodriver	INFO	Listening on 127.0.0.1:46553
+1507042060062	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:12196): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042060385	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042060645	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:12269): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042061788	Marionette	INFO	Listening on port 39847
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042061876	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042061928	Marionette	DEBUG	loaded listener.js
+1507042061955	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042062916	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042062917	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042063239	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042063395	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042080284	geckodriver	INFO	geckodriver 0.18.0
+1507042080287	geckodriver	INFO	Listening on 127.0.0.1:56225
+1507042081371	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:12327): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042081687	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042081959	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:12404): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042083162	Marionette	INFO	Listening on port 43803
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042083186	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042083229	Marionette	DEBUG	loaded listener.js
+1507042083249	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042084146	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042084147	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042084447	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042084581	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042255697	geckodriver	INFO	geckodriver 0.18.0
+1507042255699	geckodriver	INFO	Listening on 127.0.0.1:41231
+1507042256748	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:12503): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042257067	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042257324	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:12578): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042258384	Marionette	INFO	Listening on port 44031
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042258498	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042258551	Marionette	DEBUG	loaded listener.js
+1507042258581	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042259486	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042259486	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042259793	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042259984	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042268656	geckodriver	INFO	geckodriver 0.18.0
+1507042268659	geckodriver	INFO	Listening on 127.0.0.1:51493
+1507042269746	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:12636): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042270073	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042270351	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:12710): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042271394	Marionette	INFO	Listening on port 45041
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042271501	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042271544	Marionette	DEBUG	loaded listener.js
+1507042271568	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042272467	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042272467	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042272749	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042272883	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042301338	geckodriver	INFO	geckodriver 0.18.0
+1507042301340	geckodriver	INFO	Listening on 127.0.0.1:37929
+1507042302412	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:12783): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042302708	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042302969	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:12861): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042304108	Marionette	INFO	Listening on port 37613
+1507042304131	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042304175	Marionette	DEBUG	loaded listener.js
+1507042304200	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042305101	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042305102	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042305418	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042305595	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042468484	geckodriver	INFO	geckodriver 0.18.0
+1507042468487	geckodriver	INFO	Listening on 127.0.0.1:38765
+1507042469559	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:12945): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042470197	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042470468	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:13019): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042471530	Marionette	INFO	Listening on port 35365
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042471629	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042471671	Marionette	DEBUG	loaded listener.js
+1507042471696	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042472817	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042472818	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042473901	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042474220	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042520455	geckodriver	INFO	geckodriver 0.18.0
+1507042520458	geckodriver	INFO	Listening on 127.0.0.1:38431
+1507042521532	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:13088): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042521844	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042522112	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:13162): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042523156	Marionette	INFO	Listening on port 37789
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042523268	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042523309	Marionette	DEBUG	loaded listener.js
+1507042523330	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042524335	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042524335	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042524649	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042524806	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042585783	geckodriver	INFO	geckodriver 0.18.0
+1507042585785	geckodriver	INFO	Listening on 127.0.0.1:50539
+1507042586831	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:13232): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042587469	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042587741	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:13307): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042588810	Marionette	INFO	Listening on port 42725
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042588910	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042588952	Marionette	DEBUG	loaded listener.js
+1507042588976	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042590011	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042590013	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042590860	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042591450	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042651211	geckodriver	INFO	geckodriver 0.18.0
+1507042651215	geckodriver	INFO	Listening on 127.0.0.1:42253
+1507042652287	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:13373): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042652614	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042652887	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:13447): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042654085	Marionette	INFO	Listening on port 41983
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042654101	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042654141	Marionette	DEBUG	loaded listener.js
+1507042654163	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042655085	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042655085	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042655421	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042655575	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042706792	geckodriver	INFO	geckodriver 0.18.0
+1507042706795	geckodriver	INFO	Listening on 127.0.0.1:36777
+1507042707865	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:13513): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042708338	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042708612	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:13587): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042709666	Marionette	INFO	Listening on port 44167
+1507042709684	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042709738	Marionette	DEBUG	loaded listener.js
+1507042709800	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042710882	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042710882	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042711556	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042711960	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042756443	geckodriver	INFO	geckodriver 0.18.0
+1507042756446	geckodriver	INFO	Listening on 127.0.0.1:60455
+1507042757517	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:13648): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042757831	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042758106	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:13721): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042759167	Marionette	INFO	Listening on port 43381
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042759274	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042759319	Marionette	DEBUG	loaded listener.js
+1507042759344	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042760283	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042760284	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042760654	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042760858	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042774701	geckodriver	INFO	geckodriver 0.18.0
+1507042774703	geckodriver	INFO	Listening on 127.0.0.1:59455
+1507042775763	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:13789): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042776098	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042776374	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:13865): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042777473	Marionette	INFO	Listening on port 44527
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042777579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042777627	Marionette	DEBUG	loaded listener.js
+1507042777663	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042778609	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042778609	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042778931	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042779084	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042805009	geckodriver	INFO	geckodriver 0.18.0
+1507042805012	geckodriver	INFO	Listening on 127.0.0.1:43661
+1507042806074	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:13926): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042806393	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042806666	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:14001): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042807859	Marionette	INFO	Listening on port 39993
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042807886	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042807929	Marionette	DEBUG	loaded listener.js
+1507042807953	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042808871	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042808872	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042809197	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042809341	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+
+(/usr/lib/firefox/firefox:14057): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042901036	geckodriver	INFO	geckodriver 0.18.0
+1507042901039	geckodriver	INFO	Listening on 127.0.0.1:51679
+1507042902115	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:14115): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042902433	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042902716	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:14189): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042903840	Marionette	INFO	Listening on port 44573
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042903952	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042903991	Marionette	DEBUG	loaded listener.js
+1507042904022	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042904948	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042904949	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042906033	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042906358	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042949983	geckodriver	INFO	geckodriver 0.18.0
+1507042949986	geckodriver	INFO	Listening on 127.0.0.1:59065
+1507042951060	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:14290): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042951672	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507042951936	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:14366): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507042953074	Marionette	INFO	Listening on port 39011
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042953193	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042953309	Marionette	DEBUG	loaded listener.js
+1507042953352	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042954273	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042954274	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042954540	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042954671	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043009270	geckodriver	INFO	geckodriver 0.18.0
+1507043009273	geckodriver	INFO	Listening on 127.0.0.1:47681
+1507043010347	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:14430): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043010670	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507043010947	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:14504): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043011983	Marionette	INFO	Listening on port 45651
+1507043012089	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507043012130	Marionette	DEBUG	loaded listener.js
+1507043012155	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507043013100	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507043013101	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507043013419	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043013563	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043197115	geckodriver	INFO	geckodriver 0.18.0
+1507043197117	geckodriver	INFO	Listening on 127.0.0.1:45397
+1507043198192	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:14720): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043198579	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507043198850	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:14798): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043200061	Marionette	INFO	Listening on port 37445
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507043200103	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507043200139	Marionette	DEBUG	loaded listener.js
+1507043200163	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507043201067	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507043201068	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507043201495	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043201687	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043223731	geckodriver	INFO	geckodriver 0.18.0
+1507043223735	geckodriver	INFO	Listening on 127.0.0.1:36877
+1507043224806	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:14855): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043225131	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507043225398	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:14928): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043226589	Marionette	INFO	Listening on port 43677
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507043226619	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507043226659	Marionette	DEBUG	loaded listener.js
+1507043226681	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507043227739	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507043227742	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507043229222	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043229850	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043271284	geckodriver	INFO	geckodriver 0.18.0
+1507043271287	geckodriver	INFO	Listening on 127.0.0.1:56465
+1507043272364	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:14991): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043272714	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507043272986	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:15066): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043274031	Marionette	INFO	Listening on port 35827
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507043274147	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507043274187	Marionette	DEBUG	loaded listener.js
+1507043274216	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507043275185	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507043275186	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507043275580	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043275756	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043357003	geckodriver	INFO	geckodriver 0.18.0
+1507043357006	geckodriver	INFO	Listening on 127.0.0.1:56581
+1507043358067	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:15134): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043359307	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507043359575	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:15207): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043360751	Marionette	INFO	Listening on port 36113
+1507043360785	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507043360828	Marionette	DEBUG	loaded listener.js
+1507043360853	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507043361884	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507043361885	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507043362990	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043363774	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043376013	geckodriver	INFO	geckodriver 0.18.0
+1507043376015	geckodriver	INFO	Listening on 127.0.0.1:49543
+1507043377083	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:15265): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043377400	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507043377676	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:15338): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043378888	Marionette	INFO	Listening on port 40369
+1507043378899	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507043378938	Marionette	DEBUG	loaded listener.js
+1507043378960	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507043379937	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507043379938	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507043380420	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043380560	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043543570	geckodriver	INFO	geckodriver 0.18.0
+1507043543573	geckodriver	INFO	Listening on 127.0.0.1:39385
+1507043544637	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:15439): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043545156	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507043545430	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:15512): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043546522	Marionette	INFO	Listening on port 45237
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507043546631	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507043546670	Marionette	DEBUG	loaded listener.js
+1507043546697	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507043548117	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507043548117	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507043549043	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043549883	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043592247	geckodriver	INFO	geckodriver 0.18.0
+1507043592250	geckodriver	INFO	Listening on 127.0.0.1:49633
+1507043593314	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:15576): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043593646	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507043593932	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:15649): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043595212	Marionette	INFO	Listening on port 40327
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507043595229	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507043595268	Marionette	DEBUG	loaded listener.js
+1507043595292	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507043596234	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507043596235	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507043596657	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043596779	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+
+(/usr/lib/firefox/firefox:15695): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+JavaScript warning: https://www.tutorialspoint.com/theme/js/script-min-v4.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507043625591	geckodriver	INFO	geckodriver 0.18.0
+1507043625595	geckodriver	INFO	Listening on 127.0.0.1:44549
+1507043626649	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:15746): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043627481	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507043627799	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:15823): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043628942	Marionette	INFO	Listening on port 43191
+1507043628965	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507043629009	Marionette	DEBUG	loaded listener.js
+1507043629097	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507043630232	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507043630235	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507043631111	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043631913	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043691429	geckodriver	INFO	geckodriver 0.18.0
+1507043691433	geckodriver	INFO	Listening on 127.0.0.1:58153
+1507043692482	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:15892): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043692837	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507043693154	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:15966): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043694291	Marionette	INFO	Listening on port 38291
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507043694398	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507043694440	Marionette	DEBUG	loaded listener.js
+1507043694469	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507043695466	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507043695466	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507043696460	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043696610	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1507043956786	geckodriver	INFO	geckodriver 0.18.0
+1507043956788	geckodriver	INFO	Listening on 127.0.0.1:55919
+1507043957866	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:16305): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043958203	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507043958467	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:16379): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507043959512	Marionette	INFO	Listening on port 44775
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507043959611	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507043959652	Marionette	DEBUG	loaded listener.js
+1507043959674	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507043960589	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507043960590	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507043961025	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507043961142	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044014405	geckodriver	INFO	geckodriver 0.18.0
+1507044014407	geckodriver	INFO	Listening on 127.0.0.1:44527
+1507044015473	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:16440): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044015832	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044016097	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:16513): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044017155	Marionette	INFO	Listening on port 35399
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044017257	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044017299	Marionette	DEBUG	loaded listener.js
+1507044017326	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044018233	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044018234	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044018606	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044018754	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044030709	geckodriver	INFO	geckodriver 0.18.0
+1507044030712	geckodriver	INFO	Listening on 127.0.0.1:51913
+1507044031787	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:16578): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044032113	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044032381	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:16651): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044033554	Marionette	INFO	Listening on port 33911
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044033604	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044033645	Marionette	DEBUG	loaded listener.js
+1507044033668	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044034616	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044034617	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044034990	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044035293	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044099814	geckodriver	INFO	geckodriver 0.18.0
+1507044099816	geckodriver	INFO	Listening on 127.0.0.1:56549
+1507044100887	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:16721): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044101241	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044101547	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:16797): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044102665	Marionette	INFO	Listening on port 37327
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044102709	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044102746	Marionette	DEBUG	loaded listener.js
+1507044102760	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044103716	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044103717	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044104363	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044104590	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044137234	geckodriver	INFO	geckodriver 0.18.0
+1507044137237	geckodriver	INFO	Listening on 127.0.0.1:39553
+1507044138326	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:16868): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044138759	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044139029	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:16945): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044140232	Marionette	INFO	Listening on port 36935
+1507044140244	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044140282	Marionette	DEBUG	loaded listener.js
+1507044140305	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044141238	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044141239	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044141694	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044141916	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044236557	geckodriver	INFO	geckodriver 0.18.0
+1507044236561	geckodriver	INFO	Listening on 127.0.0.1:47501
+1507044237625	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:17022): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044237955	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044238228	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:17096): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044239416	Marionette	INFO	Listening on port 40927
+1507044239442	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044239483	Marionette	DEBUG	loaded listener.js
+1507044239505	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044240431	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044240433	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044241048	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044241285	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044347137	geckodriver	INFO	geckodriver 0.18.0
+1507044347140	geckodriver	INFO	Listening on 127.0.0.1:36717
+1507044348207	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:17194): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044348565	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044348863	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:17268): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044350126	Marionette	INFO	Listening on port 43757
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044350270	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044350332	Marionette	DEBUG	loaded listener.js
+1507044350355	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044351659	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044351661	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044352930	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044353566	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044483301	geckodriver	INFO	geckodriver 0.18.0
+1507044483304	geckodriver	INFO	Listening on 127.0.0.1:35713
+1507044484384	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:17361): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044484696	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044484975	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:17436): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044486123	Marionette	INFO	Listening on port 33993
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044486196	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044486235	Marionette	DEBUG	loaded listener.js
+1507044486259	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044487190	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044487191	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044487615	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044487832	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044532636	geckodriver	INFO	geckodriver 0.18.0
+1507044532639	geckodriver	INFO	Listening on 127.0.0.1:37911
+1507044533706	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:17497): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044534378	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044534661	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:17570): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044535751	Marionette	INFO	Listening on port 38505
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044535859	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044535901	Marionette	DEBUG	loaded listener.js
+1507044535928	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044536833	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044536834	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044537421	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044537771	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044619364	geckodriver	INFO	geckodriver 0.18.0
+1507044619368	geckodriver	INFO	Listening on 127.0.0.1:60807
+1507044620438	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:17651): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044620777	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044621053	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:17725): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044622197	Marionette	INFO	Listening on port 34501
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044622256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044622306	Marionette	DEBUG	loaded listener.js
+1507044622330	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044623272	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044623272	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044623798	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044624053	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044632219	geckodriver	INFO	geckodriver 0.18.0
+1507044632221	geckodriver	INFO	Listening on 127.0.0.1:38389
+1507044633288	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:17783): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044633616	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044633899	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:17862): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044635131	Marionette	INFO	Listening on port 36797
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044635200	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044635239	Marionette	DEBUG	loaded listener.js
+1507044635260	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044636214	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044636214	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044636591	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044636739	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044672311	geckodriver	INFO	geckodriver 0.18.0
+1507044672314	geckodriver	INFO	Listening on 127.0.0.1:52393
+1507044673375	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:17925): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044674295	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044674582	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:18001): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044675711	Marionette	INFO	Listening on port 46803
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044675819	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044675865	Marionette	DEBUG	loaded listener.js
+1507044675892	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044676844	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044676846	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044677364	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044677588	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044783000	geckodriver	INFO	geckodriver 0.18.0
+1507044783003	geckodriver	INFO	Listening on 127.0.0.1:43245
+1507044784060	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:18277): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044784381	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044784638	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:18353): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044785738	Marionette	INFO	Listening on port 34689
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044785780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044785823	Marionette	DEBUG	loaded listener.js
+1507044785843	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044786822	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044786823	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044787205	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044787351	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044798984	geckodriver	INFO	geckodriver 0.18.0
+1507044798988	geckodriver	INFO	Listening on 127.0.0.1:39221
+1507044800059	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:18409): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044800403	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044800664	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:18485): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044801801	Marionette	INFO	Listening on port 42379
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044801880	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044801924	Marionette	DEBUG	loaded listener.js
+1507044801946	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044803280	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044803282	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044803680	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044803811	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044811960	geckodriver	INFO	geckodriver 0.18.0
+1507044811963	geckodriver	INFO	Listening on 127.0.0.1:53797
+1507044813014	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:18544): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044813372	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044813643	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:18619): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044814697	Marionette	INFO	Listening on port 34143
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044814815	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044814858	Marionette	DEBUG	loaded listener.js
+1507044814881	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044815815	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044815816	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044816168	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044816350	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044881762	geckodriver	INFO	geckodriver 0.18.0
+1507044881765	geckodriver	INFO	Listening on 127.0.0.1:57271
+1507044882831	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:18687): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044883234	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044883497	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:18763): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044884692	Marionette	INFO	Listening on port 40533
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044884743	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044884781	Marionette	DEBUG	loaded listener.js
+1507044884804	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044885833	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044885834	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044886460	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044886580	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044903489	geckodriver	INFO	geckodriver 0.18.0
+1507044903492	geckodriver	INFO	Listening on 127.0.0.1:48193
+1507044904574	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:18822): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044904974	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044905246	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:18898): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044906299	Marionette	INFO	Listening on port 35807
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507044906399	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507044906445	Marionette	DEBUG	loaded listener.js
+1507044906467	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507044907799	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507044907801	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507044908250	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044908510	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507044995209	geckodriver	INFO	geckodriver 0.18.0
+1507044995212	geckodriver	INFO	Listening on 127.0.0.1:38881
+1507044996286	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:18974): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044998072	geckodriver	INFO	geckodriver 0.18.0
+1507044998075	geckodriver	INFO	Listening on 127.0.0.1:57591
+1507044999156	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:18992): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507044999472	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507044999742	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:19069): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507045000790	Marionette	INFO	Listening on port 34335
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507045000904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507045000946	Marionette	DEBUG	loaded listener.js
+1507045000972	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507045001942	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507045001943	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507045002401	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507045002704	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507045013015	geckodriver	INFO	geckodriver 0.18.0
+1507045013018	geckodriver	INFO	Listening on 127.0.0.1:34487
+1507045014084	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:19127): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507045014407	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507045014677	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:19203): Gtk-WARNING **: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1507045015738	Marionette	INFO	Listening on port 38549
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507045015842	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507045015881	Marionette	DEBUG	loaded listener.js
+1507045015906	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507045017003	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507045017005	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507045017409	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507045017567	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
