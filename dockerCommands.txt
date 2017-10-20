@@ -1,0 +1,92 @@
+  338  pacman -Ss docker
+  339  pacman -S docker
+  340  pacman -Ss docker
+  342  docker pull ubuntu
+  344  docker pull ubuntu
+  345  newgrp docker
+  346  docker pull ubuntu
+  347  systemctl enable docker
+  348  systemctl start docker
+  352  docker pull centos
+  355  docker images
+  356  docker pull alpine
+  357  docker images
+  358  docker run -it --name myalpine alpine:latest bash
+  359  docker ps -a
+  360  docker start myalpine 
+  361  docker container prune
+  362  docker ps -a
+  363  docker images
+  364  docker run -it --name alp alpine
+  365  docker start alp
+  366  docker exec -it alp ash 
+  367  docker exec -it alp ash 
+  371  rmdir Docker/
+  373  docker commit app "alpine:ipcalc"
+  374  docker commit alp "alpine:ipcalc"
+  375  docker images
+  376  docker rm centos
+  377  docker imgrm ee4a9a4e2399
+  378  docker image rm ee4a9a4e2399
+  379  docker images
+  380  docker commit alp "alpine:ipcalc"
+  381  docker image rm 196e0ce0c9fb
+  382  docker images
+  383  docker ps -a
+  384  docker rm alp
+  385  docker images
+  386  docker rm alp
+  388  docker stop alp
+  389  docker rm alp
+  390  docker image
+  391  docker images
+  392  docker images
+  393  docker ps -a
+  394  docker run -it -name alp alpine:ipcalc ash
+  395  docker run -it --name alp alpine:ipcalc ash
+  410  docker build -t "aÃlpine:openssh" .
+  411  docker build -t "alpine:openssh" .
+  412  docker images
+  413  docker ps -a
+  414  docker run -it --name ossh alpine:openssh ash
+  415  docker rm ossh
+  416  docker ps -a
+  417  docker rm alp
+  418  docker ps -a
+  419  docker run --name ossh -p 80:80 alpine:openssh ash
+  421  ls /var/lib/docker/
+  422  docker ps -a
+  423  docker rm ossh
+  424  docker images
+  425  docker image rm $(docker images)
+  426  docker images
+  427  pacman -Ss docker
+  428  pacman -S docker-compose
+  429  pacman -S docker-swarm
+  430  pacman -S docker
+  431  pacman -Ss docker
+  432  pacman -Ss docker-compose
+  433  pacman -S docker-compose
+  434  pacman -S docker-compose
+  436  pacman -Q | grep docker
+  437  pacman -S docker-compose
+  467  docker ps -a
+  468  docker stop
+  469  docker images
+  471  rm alpinedocker/
+  472  rmdir alpinedocker/
+  473  rm -r alpinedocker/
+  474  mkdir dockerredispython
+  475  cd dockerredispython/
+  486  docker run -d --name redis -p 6379:6379 redis:latest
+  488  docker
+  489  docker ps -a
+  490  docker images
+  495  cd dockerredispython/
+  500  history | grep -i docker > dockerCommands.txt
+  
+
+docker build -t "tutum/apache-php:opencart" .
+docker run -d -p 80:80 lg:opencart
+docker pull mysql
+docker run --name lg-mysql -e MYSQL_ROOT_PASSWORD=pass -d mysql:latest

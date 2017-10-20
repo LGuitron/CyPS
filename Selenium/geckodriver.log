@@ -11990,3 +11990,10 @@ JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min
 JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1507311953330	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/"
 1507311953333	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/"
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/fonts/conf.d/30-urw-aliases.conf
+JavaScript error: resource://shield-recipe-client/lib/EventEmitter.jsm, line 30: TypeError: log is undefined
+JavaScript error: resource://shield-recipe-client/lib/EventEmitter.jsm, line 30: TypeError: log is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
