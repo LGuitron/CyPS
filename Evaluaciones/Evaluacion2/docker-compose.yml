@@ -9,8 +9,10 @@ services:
             - MYSQL_ROOT_PASSWORD=pass
             - MYSQL_DATABASE=opencart
     opencart:
+        build: ./Opencart
+        depends_on:
+          - mysql
         image: lg:opencart
-        build: ./opencart
         ports:
           - "80:80"
         links:
